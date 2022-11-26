@@ -49,12 +49,12 @@ The project is to build an ETL pipeline that extracts their data from **S3**, st
 
 * `create_tables.py`
   * You run this python script after creating the cluster
-  * This file creates the 2 staging tables which is **_staging_songs_** and **_staging_events_** tables to store the s3 staged csv log and songs data into them
+  * This file creates the 2 staging tables which is **_staging_songs_** and **_staging_events_** tables to store the s3 staged json log and songs data into them
   * This file creates the 4 dimensions and fact table to transfer the data in the staging tables into it
   * The queries that execute to run this script is in `sql_queries.py`
 
 * `etl.py`
-  * After we create the cluster and the tables we call this script to transfer the data from the s3 csvs to the 2 staging tables created
+  * After we create the cluster and the tables we call this script to transfer the data from the s3 json files to the 2 staging tables created
   * Then it transfers the data from the 2 staging tables to the data warehouse dimensions (4 dimensions) and fact.
 
 * `sql_queries`

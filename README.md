@@ -1,8 +1,8 @@
-# SPARKIFY ETL (AWS Redshift)
+# SPARKIFY ETL (Amazon Redshift)
 
 ## Table of Contents
 
-- [SPARKIFY ETL (AWS Redshift)](#sparkify-etl-aws-redshift)
+- [SPARKIFY ETL (Amazon Redshift)](#sparkify-etl-amazon-redshift)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Tools](#tools)

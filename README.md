@@ -57,7 +57,7 @@ The project is to build an ETL pipeline that extracts their data from **S3**, st
   * After we create the cluster and the tables we call this script to transfer the data from the s3 json files to the 2 staging tables created
   * Then it transfers the data from the 2 staging tables to the data warehouse dimensions (4 dimensions) and fact.
 
-* `sql_queries`
+* `sql_queries.py`
   * This file contains the queries executed to create and drop the tables, transfering the data into the 2 staging tables then the queries to transfer the data into the data warehouse.
 
 
